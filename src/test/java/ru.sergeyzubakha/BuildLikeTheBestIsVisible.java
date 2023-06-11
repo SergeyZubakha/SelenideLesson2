@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class BuildLikeTheBestIsVisible {
     @Test
-    void BuildLikeTheBestIsVisible() {
+    void buildLikeTheBestIsVisible() {
         open("https://github.com/");
         $((byText("Solutions"))).hover();
         $("[href=\"/enterprise\"").click();
